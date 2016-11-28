@@ -5,6 +5,11 @@
 #ifndef PATTERNRECOGNITION_UE4_ANDREASBRAUN_MARTINBRAUN_JULIANNEUBERGER_H
 #define PATTERNRECOGNITION_UE4_ANDREASBRAUN_MARTINBRAUN_JULIANNEUBERGER_H
 
+#include <iostream>
+
+using namespace std;
+
+
 static void generateRandomSamplesTriangle(){
 
 }
