@@ -21,7 +21,7 @@ typedef int bool;
 #define true 1
 #define false 0
 
-#define DEBUG false
+#define DEBUG true
 
 double weights[] = { 	
 	0, 5, -3, 4, 4, 1,
@@ -69,7 +69,7 @@ int deterministicAnnealingK(double* weights, double* s, double t, double k, doub
 	int i;
 	int j;
 	int var;
-	int li;
+	double li;
 
 	double tempS[NODES];
 
