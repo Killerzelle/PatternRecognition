@@ -84,6 +84,8 @@ int deterministicAnnealingK(double* weights, double* s, double t, double k, doub
 				li += weights[i * NODES + j]*tempS[j];
 			}
 			tempS[i] = tanh(li/t);
+			//FIXME: if tempS[i] != -1 && tempS[i] != 1
+			//round to one of them
 			if( DEBUG ) {
 				printf("li: %f\n", li);
 				printf("sOut: %f\n", tempS[i]);										
